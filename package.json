@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build:ui": "cd ../fullstackopen/part3/Phonebook_fullStack/phonebook_frontend/ && npm run build && cp -r ./build/ ../../../../PhonebookApp"
   },
   "author": "",
   "license": "ISC",
